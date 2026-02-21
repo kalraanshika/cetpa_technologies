@@ -4,10 +4,10 @@ import { Search, MapPin, Clock, ArrowRight, UserPlus } from 'lucide-react';
 
 export default function Career() {
     const jobs = [
-  { title: 'Senior AI Research Engineer', type: 'Full-time', location: 'San Francisco, CA', team: 'Intelligence' },
-  { title: 'Full-Stack Developer (React/Rust)', type: 'Remote', location: 'Europe/US', team: 'Core Product' },
-  { title: 'Lead Product Designer', type: 'Full-time', location: 'New York, NY', team: 'Design Systems' },
-  { title: 'Cybersecurity Analyst', type: 'Full-time', location: 'Austin, TX', team: 'Defense' },
+  { title: 'Senior AI Research Engineer', type: 'Full-time', location: 'Remote', team: 'Intelligence' },
+  { title: 'Full-Stack Developer (React/Rust)', type: 'Remote', location: 'Remote', team: 'Core Product' },
+  { title: 'Lead Product Designer', type: 'Full-time', location: 'Remote', team: 'Design Systems' },
+  { title: 'Cybersecurity Analyst', type: 'Full-time', location: 'Remote', team: 'Defense' },
   { title: 'DevOps & Infrastructure Architect', type: 'Contract', location: 'Remote', team: 'Platform' },
 ];
   return (
