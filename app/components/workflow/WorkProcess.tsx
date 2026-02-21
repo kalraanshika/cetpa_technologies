@@ -4,10 +4,10 @@ import ProcessCard from './ProcessCard';
 
 export default function WorkProcess() {
   const processes = [
-    { step: '01', title: 'Research', icon: <Zap />, desc: 'We do research before we start any project' },
-    { step: '02', title: 'Designing', icon: <Cpu />, desc: 'Design according to client’s requirements' },
-    { step: '03', title: 'Development', icon: <Shield />, desc: 'Developed by skilled developers team' },
-    { step: '04', title: 'Live Testing', icon: <Globe />, desc: 'After Completion, tests are executed in live environments' },
+    { step: 1, title: 'Research', icon: <Zap />, desc: 'We do research before we start any project' },
+    { step: 2, title: 'Designing', icon: <Cpu />, desc: 'Design according to client\'s requirements' },
+    { step: 3, title: 'Development', icon: <Shield />, desc: 'Developed by skilled developers team' },
+    { step: 4, title: 'Live Testing', icon: <Globe />, desc: 'After Completion, tests are executed in live environments' },
   ];
 
   return (

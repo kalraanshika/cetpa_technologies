@@ -68,7 +68,7 @@ const services = [
 ];
 
 export default function ServicesGrid() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <section id="services" className="py-32 bg-[#050505] overflow-hidden">

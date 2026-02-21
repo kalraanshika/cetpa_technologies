@@ -25,7 +25,7 @@ export default function ProcessCard({ title, icon, desc, step }: ProcessCardProp
         <div className="relative w-15 h-15 ">
           <div className="absolute inset-0 bg-blue-600/20 blur-2xl rounded-full group-hover:bg-blue-600/40 transition-colors duration-700" />
           <div className="relative w-full h-full bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-white/10 rounded-2xl flex items-center justify-center text-blue-400 group-hover:text-white group-hover:border-blue-500/50 transition-all duration-500">
-            {React.cloneElement(icon as React.ReactElement, { size: 36, strokeWidth: 1.5 })}
+            {React.cloneElement(icon as React.ReactElement, { size: 36, strokeWidth: 1.5 } as any)}
           </div>
         </div>
 
